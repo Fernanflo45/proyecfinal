@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; /* Fondo oscuro */
+    color: #000000; /* Color de texto claro */
+}
+
+.navbar {
+    background-color: #1f1f1f; /* Fondo oscuro para la barra de navegación */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra más notoria */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff; /* Color de texto claro */
+}
+
+.navbar-brand:hover {
+    color: #bbbbbb; /* Color de texto más claro al pasar el ratón */
+}
+
+.nav-link {
+    color: #bbbbbb; /* Color de los enlaces en la barra de navegación */
+}
+
+.nav-link:hover {
+    color: #ffffff; /* Color de enlace más claro al pasar el ratón */
+}
+
+header {
+    background-image: url('https://source.unsplash.com/1600x900/?store,shopping');
+    background-size: cover;
+    background-position: center;
+    color: #383838; /* Color de texto claro */
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.7); /* Sombra del texto */
+}
+
+.lead {
+    font-size: 1.3rem;
+    color: #000000; /* Texto claro */
+}
+
+.btn-primary {
+    background-color: #353535; /* Botón con tono azul oscuro */
+    border: none;
+    color: #ffffff; /* Texto blanco */
+}
+
+.btn-primary:hover {
+    background-color: #777777; /* Botón con tono más oscuro al pasar el ratón */
+}
+
+.footer {
+    background-color: #383838; /* Fondo oscuro para el pie de página */
+    padding: 40px 0;
+    color: #bbbbbb; /* Color de texto claro */
+    text-align: center;
+    border-top: 1px solid #333; /* Borde sutil */
+}
+
+.footer a {
+    color: #4A90E2; /* Enlace de color azul */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #357ABD; /* Enlace de color azul más oscuro al pasar el ratón */
+    text-decoration: underline;
+}
